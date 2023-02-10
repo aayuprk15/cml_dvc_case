@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: cml
+      - name: cml-run
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
